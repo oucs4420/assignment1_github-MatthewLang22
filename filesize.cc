@@ -19,7 +19,7 @@ int main(int argc, char* argv[])
 {
     cout << "program: " << argv[0] << endl; // First printing the name of the program
 
-    ifstream instream;
+    ifstream instream; // Creating instream
 
     for (int i = 1; i < argc; i++) // Looping through each file provided
     {
@@ -44,7 +44,7 @@ int main(int argc, char* argv[])
             cout << " " << argv[i] << ": " << line_count << endl;
             line_count = 0;
         }
-        instream.close();
+        instream.close(); // Closing instream
     }
 
     exit(0); // this means that the program executed correctly!
