@@ -1,2 +1,3 @@
-input.notafile: -1
-input.unreadable: -1
+program: ./filesize
+ input.notafile: -1
+ input.unreadable: -1

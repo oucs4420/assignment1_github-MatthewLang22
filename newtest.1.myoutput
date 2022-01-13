@@ -1,1 +1,2 @@
-input.3lines: 3
+program: ./filesize
+ input.3lines: 3
